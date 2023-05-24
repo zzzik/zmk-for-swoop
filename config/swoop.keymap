@@ -104,10 +104,10 @@
         base {
             label = "Base";
             bindings = <
-&kp Q  &kp W       &kp E        &kp R        &kp T               &kp Y             &kp U      &kp I    &kp O          &kp P
-&kp A  &kp S       &kp D        &kp F        &kp G               &kp H             &kp J      &kp K    &kp L  &kp SEMICOLON
-&kp Z  &kp X       &kp C        &kp V        &kp B               &kp N             &kp M  &kp COMMA  &kp DOT       &kp FSLH
-              &kp C_MUTE  &lt 1 SPACE  &lt 2 ENTER    &mt LEFT_WIN ESC  &ltq 2 BACKSPACE     &trans
+&kp Q  &kp W       &kp E        &kp R        &kp T              &kp Y             &kp U      &kp I    &kp O          &kp P
+&kp A  &kp S       &kp D        &kp F        &kp G              &kp H             &kp J      &kp K    &kp L  &kp SEMICOLON
+&kp Z  &kp X       &kp C        &kp V        &kp B              &kp N             &kp M  &kp COMMA  &kp DOT       &kp FSLH
+              &kp C_MUTE  &lt 1 SPACE  &lt 2 ENTER    &kp RIGHT_SHIFT  &ltq 2 BACKSPACE     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp RIGHT LEFT>;
@@ -117,7 +117,7 @@
             label = "NUMBER";
             bindings = <
    &kp N1     &kp N2     &kp N3     &kp N4         &kp N5       &kp N6           &kp N7     &kp N8     &kp N9         &kp N0
-&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)        &kp F12    &kp MINUS        &kp EQUAL  &kp GRAVE  &kp RC(L)        &kp SQT
+&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)    &kp LC(F12)    &kp MINUS        &kp EQUAL  &kp GRAVE  &kp RC(L)        &kp SQT
 &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(LA(A))      &kp F12    &kp RIGHT_ALT    &kp TAB      &none  &kp RC(SLASH)
                          &trans     &trans         &trans        &mo 3  &kp RIGHT_SHIFT     &trans
             >;
@@ -128,10 +128,10 @@
         symbol {
             label = "SYMBOL";
             bindings = <
-&kp CAPS  &kp KP_NUMBER_7  &kp KP_NUMBER_8        &kp KP_NUMBER_9  &kp KP_NUMBER_0    &trans          &trans    &kp UP     &trans  &trans
- &kp TAB  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &mt LEFT_ALT NUMBER_6          &kp DOT    &trans  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT  &trans
- &kp DEL  &kp KP_NUMBER_1  &kp KP_NUMBER_2        &kp KP_NUMBER_3      &kp AT_SIGN    &trans          &trans    &trans     &trans  &trans
-                                    &trans                 &trans           &trans    &trans          &trans    &trans
+&kp ESC  &kp KP_NUMBER_7  &kp KP_NUMBER_8        &kp KP_NUMBER_9  &kp KP_NUMBER_0    &kp LG(R)       &kp LG(L)    &kp UP     &trans  &trans
+&kp TAB  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &mt LEFT_ALT NUMBER_6          &kp DOT       &trans  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT  &trans
+&kp DEL  &kp KP_NUMBER_1  &kp KP_NUMBER_2        &kp KP_NUMBER_3      &kp AT_SIGN       &trans          &trans    &trans     &trans  &trans
+                                   &trans                 &trans           &trans       &trans          &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp RIGHT LEFT>;
