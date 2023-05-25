@@ -93,6 +93,11 @@
             bindings = <&kp PIPE>;
             key-positions = <14 15>;
         };
+
+        ctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <10 11>;
+        };
     };
 
     macros {
