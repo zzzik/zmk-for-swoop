@@ -105,9 +105,9 @@
         base {
             label = "Base";
             bindings = <
-       &kp Q            &kp W            &kp E              &kp R        &kp T            &kp Y               &kp U             &kp I         &kp O                 &kp P
-&gqt LCTRL A  &gqt LEFT_ALT S  &gqt LEFT_GUI D  &gqt LEFT_SHIFT F        &kp G            &kp H  &gqt RIGHT_SHIFT J  &gqt RIGHT_GUI K  &gqt RCTRL L  &gqt RCTRL SEMICOLON
-       &kp Z            &kp X            &kp C              &kp V        &kp B            &kp N               &kp M         &kp COMMA       &kp DOT              &kp FSLH
+       &kp Q            &kp W            &kp E              &kp R        &kp T            &kp Y               &kp U             &kp I        &kp O                 &kp P
+&gqt LCTRL A  &gqt LEFT_ALT S  &gqt LEFT_GUI D  &gqt LEFT_SHIFT F        &kp G            &kp H  &gqt RIGHT_SHIFT J  &gqt RIGHT_GUI K  &gqt RALT L  &gqt RCTRL SEMICOLON
+       &kp Z            &kp X            &kp C              &kp V        &kp B            &kp N               &kp M         &kp COMMA      &kp DOT              &kp FSLH
                                     &kp C_MUTE        &lt 1 SPACE  &lt 2 ENTER    &tab_esc_ctrl    &ltq 2 BACKSPACE            &trans
             >;
 
