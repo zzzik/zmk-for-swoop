@@ -30,6 +30,7 @@
             quick-tap-ms = <180>;
             tapping-term-ms = <200>;
             global-quick-tap;
+            flavor = "tap-preferred";
         };
         ltq: ltq {
             compatible = "zmk,behavior-hold-tap";
@@ -93,11 +94,6 @@
             bindings = <&kp PIPE>;
             key-positions = <14 15>;
         };
-
-        ctrl {
-            bindings = <&kp LCTRL>;
-            key-positions = <10 11>;
-        };
     };
 
     macros {
@@ -109,10 +105,10 @@
         base {
             label = "Base";
             bindings = <
-&kp Q  &kp W       &kp E        &kp R        &kp T              &kp Y             &kp U      &kp I    &kp O          &kp P
-&kp A  &kp S       &kp D        &kp F        &kp G              &kp H             &kp J      &kp K    &kp L  &kp SEMICOLON
-&kp Z  &kp X       &kp C        &kp V        &kp B              &kp N             &kp M  &kp COMMA  &kp DOT       &kp FSLH
-              &kp C_MUTE  &lt 1 SPACE  &lt 2 ENTER    &kp RIGHT_SHIFT  &ltq 2 BACKSPACE     &trans
+       &kp Q            &kp W            &kp E              &kp R        &kp T            &kp Y               &kp U             &kp I         &kp O                 &kp P
+&gqt LCTRL A  &gqt LEFT_ALT S  &gqt LEFT_GUI D  &gqt LEFT_SHIFT F        &kp G            &kp H  &gqt RIGHT_SHIFT J  &gqt RIGHT_GUI K  &gqt RCTRL L  &gqt RCTRL SEMICOLON
+       &kp Z            &kp X            &kp C              &kp V        &kp B            &kp N               &kp M         &kp COMMA       &kp DOT              &kp FSLH
+                                    &kp C_MUTE        &lt 1 SPACE  &lt 2 ENTER    &tab_esc_ctrl    &ltq 2 BACKSPACE            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp RIGHT LEFT>;
