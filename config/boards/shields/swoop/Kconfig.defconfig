@@ -9,7 +9,7 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-endif
+endif # LEFT
 
 if SHIELD_SWOOP_LEFT || SHIELD_SWOOP_RIGHT
 
